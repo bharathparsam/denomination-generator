@@ -1,0 +1,100 @@
+body {
+  background: #ffffff;
+  line-height: 24px;
+  font-size: 14px;
+  color: #333333;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+}
+.btn {
+  background: #345363;
+  border: 1px solid #345363;
+  color: #ffffff;
+  padding: 5px 15px;
+  text-transform: capitalize;
+}
+
+p {
+  font-family: Lato;
+}
+
+.index-form {
+  margin: 0 0 20px;
+}
+.form-inline .form-group {
+  display: inline-block;
+  font-size: 0;
+  padding: 0 15px;
+}
+.form-group {
+  margin: 0 0 15px;
+}
+.form-group .form-control {
+  display: inline-block;
+  width: 100%;
+  border-radius: 0;
+  border: 1px solid #999999;
+  height: 28px;
+  padding: 5px;
+}
+label {
+  display: block;
+  text-transform: capitalize;
+  margin: 0 0 8px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.output,
+.result {
+  padding-left: 15px;
+}
+.output h4 {
+  margin: 15px 0;
+}
+.output > ul {
+  display: table;
+  width: 100%;
+  padding: 0;
+}
+.output > ul > li {
+  display: table-cell;
+  vertical-align: top;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #aaaaaa transparent;
+  width: 1%;
+  text-align: center;
+  padding: 5px;
+}
+.output > ul > li > span {
+  display: inline-block;
+  white-space: normal;
+  position: relative;
+  width: 10px;
+  vertical-align: top;
+  height: 20px;
+}
+.output > ul > li > span::after {
+  content: "/-";
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.output > ul > li {
+  border-left: 1px solid #aaaaaa;
+}
+.output > ul > li:last-child {
+  border-right: 1px solid #aaaaaa;
+}
+
+li {
+  list-style: none;
+}
